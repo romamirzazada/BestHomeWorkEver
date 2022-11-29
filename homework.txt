@@ -1,0 +1,42 @@
+Proqramlaşdırma (ing. programming) – proqram yaratmaqla bağlı nəzəri və praktiki yaradıcılıq sahəsidir.
+
+Kompüterin proqram təminatı iki yerə bölünür: sistem və tətbiqi.
+
+Sistem PT	Əməliyyat sistemi	Yardımçı proqramlar (NC, WC)	Proqramlaşdırma dilləri
+Tətbiqi PT	Verilənlər bazası	Mətn redaktorları	Qrafiki redaktorlar	İstifadəçinin proqramları
+Kompüterdə məsələnin həlli aşağıdakı mərhələlərdən ibarətdir:
+
+1. Məsələnin qoyuluşu: məsələ haqqında informasiyanın toplanması; məsələnin şərtinin formalaşdırılması; son məqsədin müəyyən olunması; nəticələrin formasının müəyyən olunması; verilənlərin təsviri (onların tipləri, dəyişmə diapazonu, strukturu və s.).
+
+2. Məsələnin, modelin analizi və tədqiqi: movcud analoqların analizi; texniki və proqram vasitələrinin analizi; riyazi modelin hazırlanması (işlənilməsi); verilənlərin strukturunun hazırlanması (işlənilməsi).
+
+3. Alqoritmin hazırlanması (işlənilməsi): alqoritmin layihələndirilməsi üsulunun seşilməsi; alqoritmin yazılış formasının seçilməsi (blok-sxem, psevdokod və s. testin və testləşdirmə üsulunun seçilməsi; alqoritmin layihələndirilməsi.
+
+4. Proqramlaşdırma: proqramlaşdırma dilinin seçilməsi; verilənlərin təşkili qaydalarının dəqiqləşdirilməsi; seçilmiş proqramlaşdırma dilində alqoritmin yazılması.
+
+5. Testdən keçirmə və sazlama (otladka): sintaksisin yoxlanılması; məntiqi quruluşun və semantikanın yoxlanılması; test hesablamalar və testin nəticələrinin analizi; proqramın təkmilləşdirilməsi.
+
+6. Məsəslənin həllinin nəticələrinin analizi və lazim gələrsə riyazi modelin dəqiqləşdirilməsi (2-5 mərhələlərinin təkrar ediliməsi).
+
+7. Proqramın müşayiəti:
+
+konkret məsəslələrin həlli üçün proqrama əlavələrin edilməsi; həll olunan məsələ, riyazi model, alqoiritm, proqram, testlərin toplanması və istifadəçi üçün sənədləşmənin tərtibi.
+
+Proqram təminatının istismarı və hazırlanması ilə məşğul olan mütəxəssislərin kateqoriyaları
+
+Proqramlarım hazırlanması ilə məşğul olan mütəxəssislərin əsas hissəsini proqramçılar təşkil edir. Proqramçılar yaradıcılıq xarakterinə və kvalifikasiya səviyyəsinə görə müxtəlifdir. Sistem proqramçı (system/software programmer, toolsmith)– kompüterin iş qabiliyyətinin təmin olunması və proqramların yerinə yetirilmə mühitinin yaradılması üçün sistem proqram təminatınin hazırlanması, istismarı və müşayiət olunması ilə məşğul olur. Tətbiqi proqramçı (application programmer)– funksional məsələlərin (məsələn: ticarət müəssisəsinin fəaliyyətinin idarə olunması; məhsulun buraxılışının idarə olunması və c.) həlli üçün proqramların hazırlanması və sazlanması ilə məşğul olur. Proqramçı-analitik (programmer-analyst)– bir-birilə bağlı olan proqramlar kompleksinin layihələndirilməsi və analizi ilə məşğul olur. Məsələni qoyan (постановщик) – kompüterdə realizasiyası tələb olunan məsələlərin formal qoyuluşu ilə məşğul olan mütəxəssis. Verilənlər bazasının administratoru – verilənlər bazasının təşkilati dəstəyi ilə məşğul olan mütəxəssis. Şəbəkə administratoru – lokal şəbəkənin təşkilati dəstəyi ilə məşğul olan mütəxəssis. Proqramın əsas istehlakçısı proqramlaşdırma sahəsində mütəxəssis olmayan son istifadəçilərdir (end user). Kompüterdə işləmək üçün xüsusi öyrədilmiş texniki işçilər – operatorlar var ki, onlar proqram yazmırlar, yalnız hazır proqramların kompüterdə işlənilməsini təmin edirlər.
+
+Üçlük – ternary ~ троичный ~ üçlü ~ proqramlaşdırmada: 3 mümkün qiymətli element; 3 mümkün durumu olan şərt; əsası 3 olan say sistemi. Tut: BINARY, UNARY.
+
+Sınaq verilənləri – test data ~ контрольные данные ~ test verileri ~ proqramın düzgün işləməsini yoxlamaq üçün istifadə olunan qiymətlər toplusu.
+
+Sınama – testing ~ тестирование ~ sınama ~ müxtəlif komandalar və giriş kəmiyyətləri toplusunu buraxmaq yolu ilə proqramın düzgün işləməsinin yoxlanması.
+
+Ədəbiyyat
+İsmayıl Calallı (Sadıqov), “İnformatika terminlərinin izahlı lüğəti”, 2017, “Bakı” nəşriyyatı, 996 s.
+
+Həmçinin bax
+Proqramlaşdırma dilləri
+Alqoritmlər
+Salam dünya proqramı (Hello World)
+Kateqoriyalar: KompüterProqramlaşdırma

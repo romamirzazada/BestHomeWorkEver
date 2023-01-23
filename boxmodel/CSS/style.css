@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headline{
+    background-color: #212529;
+    overflow: auto;
+    padding: 23px 7.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.logo img{
+    vertical-align: middle;
+    width: 50%;
+}
+.logo{
+    float: left;
+}
+
+.nav{
+    float: right;
+}
+
+.line{
+    margin-left: 2rem;
+    transition: 0.5s;
+}
+
+.head1{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 15rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-attachment: scroll;
+}
+
+.container .ttext{
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .mtext{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container a{
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    border: 1px solid transparent;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    user-select: none;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    padding: 1.3rem 3rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-center h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.head2{
+    padding: 6rem 0;
+    background-color: #fff;
+}
+
+.text-center h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #6c757d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ }
+
+ 
+ .text-box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 11rem 1.5rem;
+ }
+
+ .head3{
+    background-color: #f8f9fa;
+    padding: 6rem 0;
+    margin: 25rem 0;
+ }
+
+ h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+ }
+
+ .box{
+    width: 30%;
+    float: left;
+    margin: 4rem 1.5rem;
+    transition: 0.5s;
+ }
+ .box-all .box img{
+  width: 100%;
+  vertical-align: bottom;
+ }
+
+
+ .boxbottom{
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+ }
+ .box:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+ }
+
+ .box img:hover{
+    filter: blur(3px);
+ }
+
+ .line:hover{
+    color: #ffc800;
+ }

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Normal;
+    src: url(../Fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: thin;
+    src: url(../Fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: bolder;
+    src: url(..//Fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: thinner;
+    src: url(../Fonts/Montserrat-Regular.ttf);
+}
+.main{
+    background-image: url(https://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/09/bgn-home-slider-04.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+}
+
+.tright a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 16px;
+    margin-left: 3rem;
+    font-family: Normal;
+    letter-spacing: -.03em;
+    transition: 0.4s;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #fff;
+}
+
+.tleft a img{
+    width: 100%;
+    height: 100%;
+}
+
+.tleft{
+    height: 6rem;
+    margin-left: 8rem;
+}
+.btw{
+    width: 10%;
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+#ph{
+    align-items: center;
+}
+
+.button{
+    text-align: center;
+    position: relative;
+    top: 48%;
+    transition: 1s;
+}
+
+.text p{
+    font-family: thinner;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 17px;
+}
+
+.hr{
+    color: #fff;
+    border-color: #fff;
+    border: 1px solid;
+    width: 6%;
+    margin: auto;
+    position: relative;
+    top: -1.5rem;
+}
+
+.bold{
+    color: #fff;
+    font-family: bolder;
+    text-shadow: 0 2px 5px rgb(24 24 24 / 20%);
+    font-size: 4rem;
+}
+.thin{
+    color: #fff;
+    font-family: thinner;
+    text-shadow: 0 2px 5px rgb(24 24 24 / 20%);
+    font-size: 4rem;
+}
+.p{
+    position: relative;
+    top: -3rem;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: bolder;
+    background-color: #8dc645;
+    border:none;
+    font-size: 10px;
+    padding: 1.3rem;
+    text-shadow: 0 2px 5px rgb(24 24 24 / 20%);
+    position: relative;
+    transition: 1s;
+}
+#blue{
+    background-color: #1976bc;
+    border: none;
+}
+
+.box-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxtop img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    position: relative;
+}
+
+.box{
+    width: 17.8%;
+    margin: 1rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(24 24 24 / 15%);
+    height: 20rem;
+    transition: 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box{
+    background-color: #fff;
+}
+
+.boxbuttom h1{
+    font-family: bolder;
+    font-size: 18px;
+    text-align: left;
+}
+.boxbuttom p{
+    text-align: left;
+    font-family: thinner;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.boxbuttom{
+    padding: 0.4rem 1rem;
+    position: relative;
+}
+
+.box-all hr{
+    opacity: 0.3;
+    margin-top: 15px;
+}
+
+
+.boxbuttom span{
+    font-family: thinner;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+    left: 23px;
+}
+
+.home{
+    box-shadow: 0 0 15px rgb(24 24 24 / 15%);
+    padding: 0.8rem;
+}
+
+.home::before{
+    content: '';
+    position: absolute;
+    background-color: #8dc645;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+}
+.home{
+    position: relative;
+}
+
+.line{
+    position: relative;
+    padding: 0.8rem;
+}
+
+
+.line::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+    transition: 0.5s;
+}
+
+.line:hover::before{
+    width: 100%;
+}
+
+.line:hover{
+    box-shadow: 0 0 15px rgb(24 24 24 / 15%);
+
+}
+
+#green:hover{
+    background-image: linear-gradient(to top,#1976bc 0%,#8dc645 100%);
+    border: none;
+}
+.box:hover{
+    box-shadow: 0 10px 30px rgb(24 24 24 / 30%);
+    transform: translateY(-6px);
+}
+
+.box:hover .boxtop img{
+    filter: brightness(0.5)
+}
+
+.boxbuttom::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    top: -5px;
+    left: 0;
+    background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+    transition: 0.3s;
+}
+
+.box:hover .boxbuttom::before{
+    width: 100%;
+}
+
+#bule:hover{
+    background-image: linear-gradient(to top,#8dc645 0%,#1976bc 100%);
+}
+i{
+    position: absolute;
+    bottom: -8px;
+    color: #1976bc;
+}
+
+.boxbuttom::after{
+    content: '125$';
+    background-color: #1976bc;
+    width: 30%;
+    height: 24px;
+    position: absolute;
+    bottom: 13rem;
+    left: -13px;
+    color: #fff;
+    font-family: bolder;
+    text-align: center;
+    padding-top: 8px;
+}

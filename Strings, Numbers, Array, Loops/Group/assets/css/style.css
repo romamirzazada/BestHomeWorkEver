@@ -1,0 +1,11 @@
+#btn{
+    background-color: tan;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 15px;
+}
+#inp{
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 6px;
+}
